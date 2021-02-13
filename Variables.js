@@ -3,3 +3,11 @@ var numOfSlices = 8;
 console.log(favoriteFood);
 console.log(numOfSlices);
 
+let changeMe = true;
+changeMe = false;
+console.log(changeMe);
+
+const entree = 'Enchiladas';
+console.log(entree);
+//entree = 'Tacos'; //TypeError
+//const testing; //SyntaxError
