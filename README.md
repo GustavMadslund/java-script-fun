@@ -1,1 +1,1 @@
-# java-script-fun
+# Repository for some fun with JavaScript
