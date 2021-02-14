@@ -13,3 +13,12 @@ function sayThanks(name) {
 sayThanks('Cole');
 sayThanks();
 sayThanks();
+
+//Default paramters
+function makeShoppingList(item1 = 'milk', item2 = 'bread', item3 = 'eggs') {
+	console.log(`Remeber to buy ${item1}`);
+	console.log(`Remeber to buy ${item2}`);
+	console.log(`Remeber to buy ${item3}`);
+}
+
+makeShoppingList();
