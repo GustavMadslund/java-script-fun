@@ -39,3 +39,8 @@ if (favoritePhrase) {
 	console.log('This string is definitely empty.')
 }
 
+
+//Short-circuit evaluation
+let tool = 'marker';
+let writingUtensil = tool || 'pen';
+console.log(`The ${writingUtensil} is mightier than the sword.`)
