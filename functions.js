@@ -41,8 +41,8 @@ const totalCost = costOfMonitors(5,4);
 
 console.log(totalCost);
 
-//Funtion epressions
-const plantNeedsWater = function(day) {
+//Funtion epressions and arrow functions
+const plantNeedsWater = (day) => {
 	if (day === 'Wednesday') {
 		return true;
 	} else {
@@ -51,3 +51,9 @@ const plantNeedsWater = function(day) {
 }
 
 console.log(plantNeedsWater('Tuesday'));
+
+//Consise body
+const plantsNeedsWater = day => day === 'Wednesday' ? true : false;
+
+console.log(plantsNeedsWater('Wednesday'));
+
