@@ -44,3 +44,14 @@ if (favoritePhrase) {
 let tool = 'marker';
 let writingUtensil = tool || 'pen';
 console.log(`The ${writingUtensil} is mightier than the sword.`)
+
+//Ternary Operator
+let isLocked = false;
+isLocked ? console.log('You will need a key to open the door.') : console.log('You will not need a key to open the door.');  
+
+let isCorrect = true;
+isCorrect ? console.log('Correct!') : console.log('Incorrect!');
+
+favoritePhrase = 'Love That!'
+favoritePhrase === 'Love That!' ? console.log('I love that!') : console.log("I don't love that!");
+
