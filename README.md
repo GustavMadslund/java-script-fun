@@ -2,3 +2,4 @@
 
 ## Learning points
 - Functions return undefined by default
+- Many global variables are bad practice.
